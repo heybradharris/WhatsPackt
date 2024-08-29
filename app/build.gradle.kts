@@ -50,6 +50,9 @@ android {
 }
 
 dependencies {
+    implementation(project(":feature:create_chat"))
+    implementation(project(":feature:chat"))
+    implementation(project(":feature:conversations"))
 
     implementation("androidx.core:core-ktx:1.10.1")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.1")
