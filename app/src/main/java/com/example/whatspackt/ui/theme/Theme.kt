@@ -14,17 +14,21 @@ import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalView
 import androidx.core.view.WindowCompat
+import com.packt.whatspackt.ui.theme.Purple200
+import com.packt.whatspackt.ui.theme.Purple500
+import com.packt.whatspackt.ui.theme.Purple700
+import com.packt.whatspackt.ui.theme.Teal200
 
 private val DarkColorScheme = darkColorScheme(
-    primary = Purple80,
-    secondary = PurpleGrey80,
-    tertiary = Pink80
+    primary = Purple200,
+    secondary = Purple700,
+    tertiary = Teal200
 )
 
 private val LightColorScheme = lightColorScheme(
-    primary = Purple40,
-    secondary = PurpleGrey40,
-    tertiary = Pink40
+    primary = Purple500,
+    secondary = Purple700,
+    tertiary = Teal200
 
     /* Other default colors to override
     background = Color(0xFFFFFBFE),
